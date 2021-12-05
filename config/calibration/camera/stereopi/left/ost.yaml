@@ -1,0 +1,20 @@
+image_width: 640
+image_height: 480
+camera_name: stereopi_left
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [319.375405, 0.000000, 304.192396, 0.000000, 323.680426, 237.427061, 0.000000, 0.000000, 1.000000]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.254968, 0.040225, 0.003280, 0.003321, 0.000000]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [205.617355, 0.000000, 318.905704, 0.000000, 0.000000, 264.259338, 239.491562, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000]
